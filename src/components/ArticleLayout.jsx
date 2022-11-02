@@ -36,7 +36,7 @@ export function ArticleLayout({
         <title>{`${meta.title} - Spencer Sharp`}</title>
         <meta name="description" content={meta.description} />
       </Head>
-      <Container className="mt-16 lg:mt-32">
+      <Container className="mt-16 text-justify lg:mt-32 ">
         <div className="xl:relative">
           <div className="mx-auto max-w-2xl">
             {previousPathname && (
@@ -53,6 +53,9 @@ export function ArticleLayout({
               <header className="flex flex-col">
                 <h1 className="mt-6 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
                   {meta.title}
+                </h1>
+                <h1 className="mt-6 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+                  {meta.stars}
                 </h1>
                 <time
                   dateTime={meta.date}
