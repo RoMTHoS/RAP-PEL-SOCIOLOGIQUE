@@ -61,35 +61,38 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Spencer Sharp. I live in New York City, where I design the
-              future.
+              Nous sommes un groupe détudiant de l'université du mirail à
+              Toulouse !
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
+                Notre projet est de mettre à ta disposition des fiches
+                synthétiques qui vont te permettre d’apprendre efficacement et
+                de manière ludique des concepts, notions, auteurs sociologiques,
+                utiles pour tes études et ta culture personnelle.
+              </p>
+              <h2>Notre spécificité ?</h2>
+              <p>
+                Nous vulgarisons tous ces savoirs sociologiques en faisant appel
+                à des citations de rappeurs. De fait, tu pourras découvrir ou
+                redécouvrir des rappeurs tout en apprenant, et ce, de façon
+                divertissante.
+              </p>
+              <h2>
+                Alors qu’attends-tu pour visiter notre site et trouver les
+                fiches qui te conviennent ?
+              </h2>
+              <p>
+                Tu as aussi la possibilité de nous soumettre tes idées en nous
+                contactant sur notre mail ou via le formulaire de contact. Nous
+                porterons un œil attentif aux propositions et suggestions que tu
+                nous feras, qu’elles soient du côté du rap ou de la sociologie.
+                Tu pourras ainsi peut-être un jour, trouver tes recommandations
+                dans une de nos fiches RAP’PEL.
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
-              </p>
-              <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
-              </p>
-              <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
+                Nous te souhaitons un bon apprentissage et du courage dans ton
+                parcours sociologique et étudiant.
               </p>
             </div>
           </div>
