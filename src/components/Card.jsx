@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import clsx from 'clsx'
+import Image from 'next/image'
 
 function ChevronRightIcon(props) {
   return (
@@ -50,6 +51,10 @@ Card.Description = function CardDescription({ children }) {
       {children}
     </p>
   )
+}
+
+Card.Image = function CardImage({ image }) {
+  return <Image src={image} alt="" layout="fill" />
 }
 
 Card.Cta = function CardCta({ children }) {

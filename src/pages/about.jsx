@@ -156,7 +156,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>A propos - RAP'PEL Sociologique</title>
+        <title>A propos - RAPPEL Sociologique</title>
         <meta
           name="description"
           content="Le site qui mélange RAP et SOCIOLOGIE"
