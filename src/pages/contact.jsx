@@ -1,13 +1,4 @@
-import { useState } from 'react'
-import { Switch } from '@headlessui/react'
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
-
-export default function Example() {
-  const [agreed, setAgreed] = useState(false)
-
+export default function Contact() {
   return (
     <div className=" overflow-hidden text-zinc-800 dark:text-zinc-200">
       <div className="relative mx-auto max-w-2xl">
